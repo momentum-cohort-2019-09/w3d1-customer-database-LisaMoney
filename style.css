@@ -1,0 +1,42 @@
+.header {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.people {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.customer_name {
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding: 5px;
+    font-size: large;
+}
+
+.customer_email {
+    color: gray;
+    padding: 4px;
+}
+
+.customer_address {
+    text-transform: capitalize;
+}
+
+.customer_address2 {
+    text-transform: capitalize;
+}
+
+.dob:before {
+    content: "DOB: ";
+}
+
+.customer_since:before {
+    content: "Customer since: ";
+}
+
